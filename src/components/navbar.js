@@ -12,8 +12,9 @@ export default class Navbar extends Component{
               <aside id="colorlib-aside" className="border js-fullheight">
                 <div className="text-center">
                   <div className="author-img" style={{backgroundImage: 'url(images/navbar.jpg)'}} />
-                  <h1 id="colorlib-logo"><a href="#home">Lester Young</a></h1>
-                  <span className="email"><i className="icon-mail"></i> LesterMYoung07@gmail.com</span>
+                  <h1 id="colorlib-logo"><a href="#home">Lester Young<br/></a></h1>
+                  <span className="email"><i className="icon-mail"></i> LesterMYoung07@gmail.com </span>
+                  
                 </div>
                 <nav id="colorlib-main-menu" role="navigation" className="navbar">
                   <div id="navbar" className="collapse">

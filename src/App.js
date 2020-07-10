@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
 import Blog from './components/Blog'
+import Contact from './components/Contact'
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Projects />
       <Blog />
+      <Contact />
     </div>
   );
 }

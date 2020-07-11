@@ -5,7 +5,7 @@ export default class About extends Component {
 
     render(){
         return(
-                <div className=" col-md-offset-2  ">
+                <div className=" col-md-offset-2 " >
                     <section className="colorlib-about" data-section="about">
                       <div className="colorlib-narrow-content">
                         <div className="row">

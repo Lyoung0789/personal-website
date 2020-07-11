@@ -46,14 +46,14 @@ export default class About extends Component {
                                 </div>
                               </div>
                             </div>
-                            <div className="row">
+                            {/* <div className="row">
                               <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                 <div className="hire">
                                   <h2>I am happy to know you <br />that 300+ projects done sucessfully!</h2>
-                                  <a href="#" className="btn-hire">Hire me</a>
+                                  <a href="#contact" className="btn-hire">Hire me</a>
                                 </div>
                               </div>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       </div>

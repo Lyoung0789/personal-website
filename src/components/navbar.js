@@ -21,9 +21,9 @@ export default class Navbar extends Component{
                     <ul>
                       <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                       <li><a href="#about" data-nav-section="about">About</a></li>
-                      <li><a href="#" data-nav-section="work">Projects</a></li>
-                      <li><a href="#" data-nav-section="blog">Blog</a></li>
-                      <li><a href="#" data-nav-section="contact">Contact</a></li>
+                      <li><a href="#work" data-nav-section="work">Projects</a></li>
+                      <li><a href="#blog" data-nav-section="blog">Blog</a></li>
+                      <li><a href="#contact" data-nav-section="contact">Contact</a></li>
                     </ul>
                   </div>
                 </nav>

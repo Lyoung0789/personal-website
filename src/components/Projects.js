@@ -14,11 +14,11 @@ export default class Projects extends Component {
                             <h2 className="colorlib-heading animate-box">Recent Work</h2>
                           </div>
                         </div>
-                        <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                        {/* <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                           <div className="col-md-12">
-                            <p className="work-menu"><span><a href="#" className="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+                            <p className="work-menu"><span><a href="google.com" className="active">Graphic Design</a></span> <span><a href="google.com">Web Design</a></span> <span><a href="google.com">Software</a></span> <span><a href="google.com">Apps</a></span></p>
                           </div>
-                        </div>
+                        </div> */}
                         <div className="row">
                           <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
@@ -50,7 +50,7 @@ export default class Projects extends Component {
                               </div>
                             </div>
                           </div>
-                          <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                          {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
                             <div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
@@ -64,8 +64,8 @@ export default class Projects extends Component {
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+                          </div> */}
+                          {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
                             <div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
@@ -79,8 +79,8 @@ export default class Projects extends Component {
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                          </div> */}
+                          {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
@@ -94,8 +94,8 @@ export default class Projects extends Component {
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                          </div> */}
+                          {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
                             <div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
@@ -109,13 +109,13 @@ export default class Projects extends Component {
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
-                        <div className="row">
+                        {/* <div className="row">
                           <div className="col-md-12 animate-box">
                             <p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </section>
                     </div>

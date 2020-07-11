@@ -20,7 +20,7 @@ export default class Contact extends Component {
                                 <i className="icon-globe-outline" />
                               </div>
                               <div className="colorlib-text">
-                                <p><a href="#">info@domain.com</a></p>
+                                <p><a href="github.com/lyoung0789">info@domain.com</a></p>
                               </div>
                             </div>
                             <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">

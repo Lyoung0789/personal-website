@@ -17,7 +17,7 @@ export default class Home extends Component {
                       <div className="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                         <div className="slider-text-inner js-fullheight">
                           <div className="desc" >
-                            <h1 style={{color:"black"}}>Hello and Welcome! <br />My name is Lester <br/> And I am a Full Stack Web developer</h1>
+                            <h1 style={{color:"black"}}>Hello and Welcome! <br />My name is Lester <br/> I am a Full Stack Web developer.</h1>
                           </div>
                         </div>
                       </div>

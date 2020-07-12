@@ -385,6 +385,8 @@ body.offcanvas {
   padding-bottom: 15em;
   clear: both;
   width: 100%;
+  max-width: 90%;
+  margin: 0% auto; 
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,

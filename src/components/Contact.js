@@ -1,6 +1,56 @@
 import React, { Component } from 'react'
+import emailjs from 'emailjs-com'
 
 export default class Contact extends Component {
+
+
+  state ={
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  }
+
+  handleOnChange(event){
+    // debugger
+    this.setState({
+      [event.target.name]: event.target.value
+    })
+  }
+
+
+  handleSubmit(event){
+    event.preventDefault()
+
+    let templateParams={
+      from_name: this.state.email,
+      to_name: "LesterMYoung07@gmail.com",
+      subject: this.state.subject, 
+      message_html: this.state.message
+    }
+
+    if (emailjs.send(
+      'personal_gmail',
+      'template_h44Sbg4u',
+      templateParams,
+      'user_2SYagLZqmZqxFhTPUQaHc'
+    )){
+      alert("Thank you for the email!")
+      this.setState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      })
+
+    } else {
+      alert("There was an error. Please try again.")
+    }
+
+
+    
+    
+  } 
 
     render(){
         return(
@@ -43,18 +93,18 @@ export default class Contact extends Component {
                           <div className="col-md-7 col-md-push-1">
                             <div className="row">
                               <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-                                <form >
+                                <form onSubmit = {event => this.handleSubmit(event)}>
                                   <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Name" />
+                                    <input onChange={event => this.handleOnChange(event)} type="text" className="form-control" placeholder="Name" name="name" value={this.state.name}/>
                                   </div>
                                   <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Email" />
+                                    <input onChange={event => this.handleOnChange(event)} type="text" className="form-control" placeholder="Email" name="email" value={this.state.email}/>
                                   </div>
                                   <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Subject" />
+                                    <input onChange={event => this.handleOnChange(event)} type="text" className="form-control" placeholder="Subject" name="subject" value={this.state.subject}/>
                                   </div>
                                   <div className="form-group">
-                                    <textarea  id="message" cols={30} rows={7} className="form-control" placeholder="Message" defaultValue={""} />
+                                    <textarea  onChange={event => this.handleOnChange(event)} id="message" cols={30} rows={7} className="form-control" placeholder="Message"  name="message" value={this.state.message}/>
                                   </div>
                                   <div className="form-group">
                                     <input type="submit" className="btn btn-primary btn-send-message" defaultValue="Send Message" />

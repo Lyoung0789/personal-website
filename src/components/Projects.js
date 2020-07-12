@@ -24,12 +24,11 @@ export default class Projects extends Component {
                             <div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
-                                  <h3><a href="work.html">Work 01</a></h3>
-                                  <span>Website</span>
+                                  <h3><a href="work.html">Reach</a></h3>
+                                  <span><p>An app developed to track goals along with pending action items, featuring a checklist to help you achieve your targets.</p></span>
                                   <p className="icon">
-                                    <span><a href="#"><i className="icon-share3" /></a></span>
-                                    <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                    <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                    <span><a href="https://github.com/Lyoung0789/reach-frontend"><i className="icon-git" /></a></span>
+                                    <span><a href="https://www.youtube.com/watch?v=02UWWDOHFns"><i className="icon-youtube" /></a></span>
                                   </p>
                                 </div>
                               </div>
@@ -39,47 +38,45 @@ export default class Projects extends Component {
                             <div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
-                                  <h3><a href="work.html">Work 02</a></h3>
-                                  <span>Animation</span>
+                                  <h3><a href="work.html">HomeBartender</a></h3>
+                                  <span><p>An app created to share your own twist on cocktail recipes with enabled ratings and comments.</p></span>
                                   <p className="icon">
-                                    <span><a href="#"><i className="icon-share3" /></a></span>
-                                    <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                    <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                    <span><a href="https://github.com/Lyoung0789/bartender-frontend.git"><i className="icon-git" /></a></span>
+                                    <span><a href="https://www.youtube.com/watch?v=5AGmffKrvUI&t=292s"><i className="icon-youtube" /></a></span>
+                                    
                                   </p>
                                 </div>
                               </div>
                             </div>
                           </div>
-                          {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                          <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
                             <div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
-                                  <h3><a href="work.html">Work 03</a></h3>
-                                  <span>Illustration</span>
+                                  <h3><a href="work.html">HandyMan</a></h3>
+                                  <span><p>An app designed for users to sign in, book and request appointments with local technicians (ie: AC, Plumber, Electric).</p></span>
                                   <p className="icon">
-                                    <span><a href="#"><i className="icon-share3" /></a></span>
-                                    <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                    <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                    <span><a href="https://github.com/Lyoung0789/handyman-finder.git"><i className="icon-git" /></a></span>
+                                    <span><a href="https://www.youtube.com/watch?v=5AGmffKrvUI&t=292s"><i className="icon-youtube" /></a></span>
                                   </p>
                                 </div>
                               </div>
                             </div>
-                          </div> */}
-                          {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+                          </div>
+                          <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
                             <div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
                               <div className="desc">
                                 <div className="con">
-                                  <h3><a href="work.html">Work 04</a></h3>
-                                  <span>Application</span>
+                                  <h3><a href="work.html">HappyHour</a></h3>
+                                  <span>A CLI application that allows you to find 10 happy hour locations, that is within 25 miles of your zipcode. The application provides the address, hours and specials of each location.</span>
                                   <p className="icon">
-                                    <span><a href="#"><i className="icon-share3" /></a></span>
-                                    <span><a href="#"><i className="icon-eye" /> 100</a></span>
-                                    <span><a href="#"><i className="icon-heart" /> 49</a></span>
+                                    <span><a href="https://github.com/Lyoung0789/happy_hour.git"><i className="icon-git" /></a></span>
+                                    <span><a href="https://www.youtube.com/watch?v=DckfgGudKSk&t=12s"><i className="icon-youtube" /></a></span>
                                   </p>
                                 </div>
                               </div>
                             </div>
-                          </div> */}
+                          </div>
                           {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
                               <div className="desc">

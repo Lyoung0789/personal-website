@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import RubyIcon from '../ruby.png'
+
 
 export default class About extends Component {
 
@@ -13,14 +13,80 @@ export default class About extends Component {
                             <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                               <div className="col-md-12">
                                 <div className="about-desc">
-                                  <span className="heading-meta">About Us</span>
+                                  <span className="heading-meta">About</span>
                                   <h2 className="colorlib-heading">Who Am I?</h2>
-                                  <p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-                                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                  <p><strong>Hi I'm Lester Young</strong>  I am  a highly motivated Full Stack Developer, experienced in Ruby on Rails and JavaScript based programming with a background in C programming and Java. Ambitious alumni from the University of Central Florida and FlatIron Software Engineering School. Seeking a long term career as a Full Stack Developer.</p>
+                                
                                 </div>
                               </div>
                             </div>
+
                             <div className="row">
+      
+        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+          <div className="progress-wrap">
+            <h3>Ruby</h3>
+            <div className="progress">
+              <div className="progress-bar color-1" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{width: '85%'}}>
+                <span>85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+          <div className="progress-wrap">
+            <h3>Ruby on Rails</h3>
+            <div className="progress">
+              <div className="progress-bar color-2" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+          <div className="progress-wrap">
+            <h3>Sinatra</h3>
+            <div className="progress">
+              <div className="progress-bar color-3" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}}>
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+          <div className="progress-wrap">
+            <h3>Javascript</h3>
+            <div className="progress">
+              <div className="progress-bar color-4" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+          <div className="progress-wrap">
+            <h3>React Redux</h3>
+            <div className="progress">
+              <div className="progress-bar color-5" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
+          <div className="progress-wrap">
+            <h3>SQL</h3>
+            <div className="progress">
+              <div className="progress-bar color-6" role="progressbar" aria-valuenow={65} aria-valuemin={0} aria-valuemax={100} style={{width: '65%'}}>
+                <span>65%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+                            {/* <div className="row">
                               <div className="col-md-3 animate-box" data-animate-effect="fadeInLeft">
                                 <div className="services color-1">
                                   <span className="icon2"> <img src={RubyIcon} alt="Logo" /></span>
@@ -44,8 +110,8 @@ export default class About extends Component {
                                   <span className="icon2"><i className="icon-phone3" /></span>
                                   <h3>Application</h3>
                                 </div>
-                              </div>
-                            </div>
+                              </div> */}
+                            {/* </div> */}
                             {/* <div className="row">
                               <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
                                 <div className="hire">

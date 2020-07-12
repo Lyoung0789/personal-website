@@ -18,9 +18,6 @@ export default class Home extends Component {
                         <div className="slider-text-inner js-fullheight">
                           <div className="desc" >
                             <h1 style={{color:"white"}}>Hello and Welcome! <br />My name is Lester <br/> And I am a Full Stack Web developer</h1>
-                            <div className="arrow bounce">
-		                        <a className="fa fa-arrow-down fa-2x" href="#about">enter</a>
-                            </div>
                           </div>
                         </div>
                       </div>

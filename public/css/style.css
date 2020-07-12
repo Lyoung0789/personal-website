@@ -220,7 +220,7 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
+  width: calc(99%);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;

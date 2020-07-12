@@ -12,16 +12,16 @@ export default class Navbar extends Component{
               <aside id="colorlib-aside" className="border js-fullheight">
                 <div className="text-center">
                   <div className="author-img" style={{backgroundImage: 'url(images/navbar.jpg)'}} />
-                  <h1 id="colorlib-logo"><a href="#" data-nav-section="home">Lester Young<br/></a></h1>
+                  <h1 id="colorlib-logo">Lester Young<br/></h1>
                   {/* <span className="email"><i className="icon-mail"></i> LesterMYoung07@gmail.com </span> */}
                   
                 </div>
                 <nav id="colorlib-main-menu" role="navigation" className="navbar">
                   <div id="navbar" className="collapse">
                     <ul>
-                      {/* <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li> */}
+                      <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                       <li><a href="#about" data-nav-section="about">About</a></li>
-                      <li><a href="#" data-nav-section="work">Projects</a></li>
+                      <li><a href="#projects" data-nav-section="work">Projects</a></li>
                       <li><a href="#blog" data-nav-section="blog">Blog</a></li>
                       <li><a href="#contact" data-nav-section="contact">Contact</a></li>
                     </ul>

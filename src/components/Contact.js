@@ -17,10 +17,10 @@ export default class Contact extends Component {
                           <div className="col-md-5">
                             <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                               <div className="colorlib-icon">
-                                <i className="icon-globe-outline" />
+                                <i className="icon-mail" />
                               </div>
                               <div className="colorlib-text">
-                                <p><a href="github.com/lyoung0789">info@domain.com</a></p>
+                                <p>LesterMYoung07@gmail.com</p>
                               </div>
                             </div>
                             <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -36,7 +36,7 @@ export default class Contact extends Component {
                                 <i className="icon-phone" />
                               </div>
                               <div className="colorlib-text">
-                                <p><a href="tel://">(407)-520-9700</a></p>
+                                <p>(407)-520-9700</p>
                               </div>
                             </div>
                           </div>

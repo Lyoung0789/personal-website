@@ -21,7 +21,7 @@ export default class Projects extends Component {
                         </div> */}
                         <div className="row">
                           <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+                            <div className="project" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)'}}>
                               <div className="desc">
                                 <div className="con">
                                   <h3><a href="work.html">Reach</a></h3>
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                             </div>
                           </div>
                           <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+                            <div className="project" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1542600176-4f7f2cba84d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)'}}>
                               <div className="desc">
                                 <div className="con">
                                   <h3><a href="work.html">HomeBartender</a></h3>
@@ -50,7 +50,7 @@ export default class Projects extends Component {
                             </div>
                           </div>
                           <div className="col-md-6 animate-box" data-animate-effect="fadeInTop">
-                            <div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+                            <div className="project" style={{backgroundImage: 'url(https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1832&q=80)'}}>
                               <div className="desc">
                                 <div className="con">
                                   <h3><a href="work.html">HandyMan</a></h3>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
                             </div>
                           </div>
                           <div className="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-                            <div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
+                            <div className="project" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1548529793-1325ac6b99a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)'}}>
                               <div className="desc">
                                 <div className="con">
                                   <h3><a href="work.html">HappyHour</a></h3>

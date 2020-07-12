@@ -6,7 +6,7 @@ export default class Home extends Component {
 
    
     return (
-        <div id="colorlib-main">
+        <div id="colorlib-main" className = "col-md-offset-2">
           <section id="colorlib-hero" className="js-fullheight" data-section="home">
             <div className="flexslider js-fullheight">
               <ul className="slides">

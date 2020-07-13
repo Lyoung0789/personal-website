@@ -37,7 +37,7 @@ export default class Blog extends Component{
                           </div>
                           <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="blog-entry">
-                              <a href="https://lyoung0789.github.io/rails_portfolio_project" className="blog-img"><img src="https://images.unsplash.com/photo-1558415652-660b27fd1878?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                              <a href="https://lyoung0789.github.io/rails_portfolio_project" className="blog-img"><img src="https://images.unsplash.com/photo-1544776943-031655f13833?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
                               <div className="desc">
                                 <span><small>May 10, 2020 </small> | <small> Ruby </small></span>
                                 <h3><a href="https://lyoung0789.github.io/rails_portfolio_project">Rails Portfolio Project</a></h3>

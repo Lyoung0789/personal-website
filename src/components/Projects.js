@@ -42,7 +42,7 @@ export default class Projects extends Component {
                                   <span><p>An app created to share your own twist on cocktail recipes with enabled ratings and comments.</p></span>
                                   <p className="icon">
                                     <span><a href="https://github.com/Lyoung0789/bartender-frontend.git"><i className="icon-git" /></a></span>
-                                    <span><a href="https://www.youtube.com/watch?v=5AGmffKrvUI&t=292s"><i className="icon-youtube" /></a></span>
+                                    <span><a href="https://www.youtube.com/watch?v=E3gJWqiFrcI&t=1s"><i className="icon-youtube" /></a></span>
                                     
                                   </p>
                                 </div>

@@ -17,6 +17,16 @@ export default class Blog extends Component{
                         <div className="row">
                           <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="blog-entry">
+                              <a href="https://lyoung0789.github.io/an_end_to_a_chapter" className="blog-img"><img src="https://images.unsplash.com/photo-1544776943-031655f13833?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                              <div className="desc">
+                                <span><small>July 16, 2020 </small> | <small> Ruby </small></span>
+                                <h3><a href="https://lyoung0789.github.io/an_end_to_a_chapter">An End to a Chapter</a></h3>
+                                <p>It feels like it was just yesterday, when I first started FlatIron School for Software Engineering, and now it’s almost over! This experience has been amazing! I learned so much over the course of 5 months and to be honest, I’m kinda sad that it’s over. I had the absolute best experience, here and I would recommend this program to anyone that wants to learn coding!</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                            <div className="blog-entry">
                               <a href="https://lyoung0789.github.io/react_redux" className="blog-img"><img src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
                               <div className="desc">
                                 <span><small>July 5, 2020 </small> | <small>JavaScript</small> </span>
@@ -35,7 +45,7 @@ export default class Blog extends Component{
                               </div>
                             </div>
                           </div>
-                          <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                          {/* <div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                             <div className="blog-entry">
                               <a href="https://lyoung0789.github.io/rails_portfolio_project" className="blog-img"><img src="https://images.unsplash.com/photo-1544776943-031655f13833?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
                               <div className="desc">
@@ -44,7 +54,7 @@ export default class Blog extends Component{
                                 <p>Project 3! Okay here we go, for my third portfolio project I created a Handyman application in which users are able to book appointments with technicians that are signed up for the application. Users can also be managers and create Technicians and view their appointments.</p>
                               </div>
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                         <div className="row">
                           <div className="col-md-12 animate-box">

@@ -15,7 +15,7 @@ export default class About extends Component {
                                 <div className="about-desc">
                                   <span className="heading-meta">About</span>
                                   <h2 className="colorlib-heading">Who Am I?</h2>
-                                  <p><strong>Hi I'm Lester Young</strong>  I am  a highly motivated Full Stack Developer, experienced in Ruby on Rails and JavaScript based programming with a background in C programming and Java. Ambitious alumni from the University of Central Florida and FlatIron Software Engineering School. Seeking a long term career as a Full Stack Developer.</p>
+                                  <p><strong>Hi I'm Lester Young</strong>  I am  a highly motivated Full Stack Developer, experienced in Ruby on Rails and JavaScript based programming with a background in C programming and Java. As an ambitious alumni from the University of Central Florida and FlatIron Software Engineering School, I’ve created several apps and enjoy solving problems and challenges as a developer.</p>
                                 
                                 </div>
                               </div>

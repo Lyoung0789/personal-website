@@ -11,7 +11,7 @@ export default class Navbar extends Component{
               <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
               <aside id="colorlib-aside" className="border js-fullheight">
                 <div className="text-center">
-                  <div className="author-img" style={{backgroundImage: 'url(images/navbar.jpg)'}} />
+                  <div className="author-img" style={{backgroundImage: 'url(images/profile.jpg)'}} />
                   <h1 id="colorlib-logo">Lester Young<br/></h1>
                   {/* <span className="email"><i className="icon-mail"></i> LesterMYoung07@gmail.com </span> */}
                   

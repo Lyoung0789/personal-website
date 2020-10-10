@@ -19,33 +19,63 @@ export default class Blog extends Component {
               >
                 <div className="blog-entry">
                   <a
-                    href="https://lyoung0789.github.io/react_native_intro"
+                    href="https://lyoung0789.github.io/using_fetch_in_js"
+                    className="blog-img"
+                  >
+                    <img
+                      src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+                      className="img-responsive"
+                      alt="javascript code"
+                    />
+                  </a>
+                  <div className="desc">
+                    <span>
+                      <small>October 9, 2020 </small> |{" "}
+                      <small> Javascript </small>
+                    </span>
+                    <h3>
+                      <a href="https://lyoung0789.github.io/using_fetch_in_js">
+                        Using Fetch in JS
+                      </a>
+                    </h3>
+                    <p>
+                      In this blog post I will go over how to use the Fetch API.
+                      Let’s start off by giving an overview of what the Fetch
+                      API does.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 col-sm-6 animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div className="blog-entry">
+                  <a
+                    href="https://lyoung0789.github.io/react_native_pt_3"
                     className="blog-img"
                   >
                     <img
                       src="https://www.manhattanmobile.com/wp-content/uploads/2018/08/react-native-workshop.jpg"
                       className="img-responsive"
-                      alt="HTML5 Bootstrap Template by colorlib.com"
-                      style={{ height: 290 }}
+                      alt="react"
                     />
                   </a>
                   <div className="desc">
                     <span>
-                      <small>September 17, 2020 </small> |{" "}
-                      <small> React Native</small>
+                      <small>October 2, 2020 </small> |{" "}
+                      <small> React Native </small>
                     </span>
                     <h3>
-                      <a href="https://lyoung0789.github.io/react_native_intro">
-                        React Native Intro
+                      <a href="https://lyoung0789.github.io/react_native_pt_3">
+                        React Native Pt. 3
                       </a>
                     </h3>
                     <p>
-                      Hello again! After learning React, I wanted to get into
-                      building mobile applications. And since I just learned
-                      React, React Native was an obvious choice. In this blog
-                      post I will be briefly introducing React Native and
-                      setting up a simple application called TodoApp from
-                      scratch using React Native. Let’s get started!
+                      Welcome back! I am guessing that you’ve enjoyed my walk
+                      through this far and want to finish up. Well, in this blog
+                      we will be developing how to add a Todo to the list that
+                      we just created.
                     </p>
                   </div>
                 </div>
@@ -56,68 +86,26 @@ export default class Blog extends Component {
               >
                 <div className="blog-entry">
                   <a
-                    href="https://lyoung0789.github.io/an_end_to_a_chapter"
+                    href="https://lyoung0789.github.io/react_native_intro_pt_2"
                     className="blog-img"
                   >
                     <img
-                      src="https://images.unsplash.com/photo-1544776943-031655f13833?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2242&q=80"
+                      src="https://www.manhattanmobile.com/wp-content/uploads/2018/08/react-native-workshop.jpg"
                       className="img-responsive"
-                      alt="HTML5 Bootstrap Template by colorlib.com"
+                      alt="react"
                     />
                   </a>
                   <div className="desc">
                     <span>
-                      <small>July 16, 2020 </small> | <small> Ruby </small>
+                      <small>September 26, 2020 </small> |{" "}
+                      <small>React Native</small>{" "}
                     </span>
                     <h3>
-                      <a href="https://lyoung0789.github.io/an_end_to_a_chapter">
-                        An End to a Chapter
+                      <a href="https://lyoung0789.github.io/react_native_intro_pt_2">
+                        React Native Pt. 2
                       </a>
                     </h3>
-                    <p>
-                      It feels like it was just yesterday, when I first started
-                      FlatIron School for Software Engineering, and now it’s
-                      almost over! This experience has been amazing! I learned
-                      so much over the course of 5 months and to be honest, I’m
-                      kinda sad that it’s over. I had the absolute best
-                      experience, here and I would recommend this program to
-                      anyone that wants to learn coding!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 col-sm-6 animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div className="blog-entry">
-                  <a
-                    href="https://lyoung0789.github.io/react_redux"
-                    className="blog-img"
-                  >
-                    <img
-                      src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
-                      className="img-responsive"
-                      alt="HTML5 Bootstrap Template by colorlib.com"
-                    />
-                  </a>
-                  <div className="desc">
-                    <span>
-                      <small>July 5, 2020 </small> | <small>JavaScript</small>{" "}
-                    </span>
-                    <h3>
-                      <a href="https://lyoung0789.github.io/react_redux">
-                        React Redux
-                      </a>
-                    </h3>
-                    <p>
-                      We’re here! The Final Project. It feels like it was
-                      yesterday, working on my first CLI project, but look how
-                      far we’ve come! For my Final Project I decided to create
-                      an Application that keeps track of users goals. The user
-                      can log what their goals are and maintain a checklist to
-                      Reach those goals. Hence, I have named it Reach.
-                    </p>
+                    <p>Hello and welcome back!</p>
                   </div>
                 </div>
               </div>

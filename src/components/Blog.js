@@ -52,30 +52,30 @@ export default class Blog extends Component {
               >
                 <div className="blog-entry">
                   <a
-                    href="https://lyoung0789.github.io/react_native_pt_3"
+                    href="https://lyoung0789.github.io/method_overloading_vs_method_overriding"
                     className="blog-img"
                   >
                     <img
-                      src="https://www.manhattanmobile.com/wp-content/uploads/2018/08/react-native-workshop.jpg"
+                      src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2700&q=80"
                       className="img-responsive"
                       alt="react"
                     />
                   </a>
                   <div className="desc">
                     <span>
-                      <small>October 2, 2020 </small> |{" "}
-                      <small> React Native </small>
+                      <small>November 14, 2020 </small> | <small> Java </small>
                     </span>
                     <h3>
-                      <a href="https://lyoung0789.github.io/react_native_pt_3">
-                        React Native Pt. 3
+                      <a href="https://lyoung0789.github.io/method_overloading_vs_method_overriding">
+                        Java
                       </a>
                     </h3>
                     <p>
-                      Welcome back! I am guessing that you’ve enjoyed my walk
-                      through this far and want to finish up. Well, in this blog
-                      we will be developing how to add a Todo to the list that
-                      we just created.
+                      Hi Guys, welcome back! In my last blog post we discussed
+                      the 4 pillars of Object Oriented Programming. Inheritance,
+                      Polymorphism, Abstraction and Encapsulation. In this blog
+                      post I am going to be reviewing another major concept in
+                      Java programming called Overloading and Overriding.
                     </p>
                   </div>
                 </div>

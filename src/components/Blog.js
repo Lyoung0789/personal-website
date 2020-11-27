@@ -97,12 +97,11 @@ export default class Blog extends Component {
                   </a>
                   <div className="desc">
                     <span>
-                      <small>November 7, 2020 </small> |{" "}
-                      <small>Object Oriented Programming</small>{" "}
+                      <small>November 7, 2020 </small> | <small>OOP</small>{" "}
                     </span>
                     <h3>
                       <a href="https://lyoung0789.github.io/four_pillars_of_object_oriented_programming">
-                        Four Pillars of Object Oriented Programming
+                        Four Pillars of OOP
                       </a>
                     </h3>
                     <p>

@@ -86,26 +86,35 @@ export default class Blog extends Component {
               >
                 <div className="blog-entry">
                   <a
-                    href="https://lyoung0789.github.io/react_native_intro_pt_2"
+                    href="https://lyoung0789.github.io/four_pillars_of_object_oriented_programming"
                     className="blog-img"
                   >
                     <img
-                      src="https://www.manhattanmobile.com/wp-content/uploads/2018/08/react-native-workshop.jpg"
+                      src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2689&q=80"
                       className="img-responsive"
                       alt="react"
                     />
                   </a>
                   <div className="desc">
                     <span>
-                      <small>September 26, 2020 </small> |{" "}
-                      <small>React Native</small>{" "}
+                      <small>November 7, 2020 </small> |{" "}
+                      <small>Object Oriented Programming</small>{" "}
                     </span>
                     <h3>
-                      <a href="https://lyoung0789.github.io/react_native_intro_pt_2">
-                        React Native Pt. 2
+                      <a href="https://lyoung0789.github.io/four_pillars_of_object_oriented_programming">
+                        Four Pillars of Object Oriented Programming
                       </a>
                     </h3>
-                    <p>Hello and welcome back!</p>
+                    <p>
+                      If you have been following my recent blog posts I have
+                      mostly been reviewing concepts in React and JavaScript.
+                      This past week I have been diving into Object Oriented
+                      Programming (OOP). In this blog post I will go over the
+                      four pillars of Object Oriented Programming. Before we
+                      start, there are many Object Oriented Programming
+                      languages, but some sample code and concepts that may be
+                      provided will be in terms of Java.
+                    </p>
                   </div>
                 </div>
               </div>

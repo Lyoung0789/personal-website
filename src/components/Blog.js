@@ -19,7 +19,7 @@ export default class Blog extends Component {
               >
                 <div className="blog-entry">
                   <a
-                    href="https://lyoung0789.github.io/using_fetch_in_js"
+                    href="https://lyoung0789.github.io/java_installation"
                     className="blog-img"
                   >
                     <img
@@ -30,18 +30,18 @@ export default class Blog extends Component {
                   </a>
                   <div className="desc">
                     <span>
-                      <small>October 9, 2020 </small> |{" "}
-                      <small> Javascript </small>
+                      <small>November 21, 2020 </small> | <small> Java </small>
                     </span>
                     <h3>
-                      <a href="https://lyoung0789.github.io/using_fetch_in_js">
-                        Using Fetch in JS
+                      <a href="https://lyoung0789.github.io/java_installation">
+                        Java Installation
                       </a>
                     </h3>
                     <p>
-                      In this blog post I will go over how to use the Fetch API.
-                      Let’s start off by giving an overview of what the Fetch
-                      API does.
+                      Hello all and welcome back! In my recent blog posts I have
+                      been covering concepts mainly based in JavaScript and
+                      Ruby. But today we are going to start to switch gears and
+                      start the process of coding in another OOP language. Java!
                     </p>
                   </div>
                 </div>
